@@ -1,0 +1,289 @@
+2026-10-31 11:09:53.432 App[7335:26684] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/runner/Library/Developer/CoreSimulator/Devices/15FAB4A1-2F41-4DFB-B3E0-FB0C9936253D/data/Containers/Data/Application/54627FF2-598C-4879-8119-24D8228C2FE3/Library/Cookies/com.spark.player.binarycookies
+⚡️  Loading app at capacitor://localhost...
+⚡️  To Native ->  App addListener 115623681
+⚡️  [log] - %c boot %c volume 1 background:#06b6d4;color:#000000;font-weight:700;font-size:10px;padding:2px 6px;border-radius:4px; color:inherit;font-weight:normal;
+⚡️  [log] - %c boot %c player runtime initialized background:#22c55e;color:#000000;font-weight:700;font-size:10px;padding:2px 6px;border-radius:4px; color:inherit;font-weight:normal;
+⚡️  To Native ->  CapacitorHttp request 115623682
+⚡️  WebView loaded
+⚡️  [log] - %c playback %c pending load cancelled background:#06b6d4;color:#000000;font-weight:700;font-size:10px;padding:2px 6px;border-radius:4px; color:inherit;font-weight:normal;
+⚡️  To Native ->  CapacitorHttp request 115623683
+⚡️  To Native ->  CapacitorHttp request 115623684
+⚡️  To Native ->  CapacitorHttp request 115623685
+⚡️  To Native ->  CapacitorHttp request 115623686
+2026-10-31 11:09:59.105 App[7335:26871] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/sw.js_data","headers":{"content-type":"application\/json; charset=utf-8","reporting-endpoints":"youtube_main-connectionallowlist=\"https:\/\/csp.withgoogle.com\/csp\/report-to\/youtube_main\/connectionallowlist\"","x-fram
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+2026-10-31 11:09:59.947 App[7335:26883] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/api.tryliner.fun\/v1\/explore\/popular\/albums?window=7d&limit=40","headers":{"access-control-expose-headers":"Date, date, x-liner-server-time, x-request-id, content-range, accept-ranges, etag, content-disposition, x-instance
+2026-10-31 11:10:00.072 App[7335:26706] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-request-id":"req-f9u8","alt-svc":"h3=\":443\"; ma=86400","x-instance":"liner-api-s2","access-control-expose-headers":"Date, date, x-liner-server-time, x-request-id, content-range, accept-ranges, etag, content-disposition, x-instance, x-liner
+2026-10-31 11:10:00.292 App[7335:26871] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":{"window":"all","items":[{"playCount":21664,"score":39862,"track":{"durationMs":234000,"title":"addiction (Slowed)","id":"Xj-28WoO914","artists":[{"id":"unknown","name":"LONOWN"}],"cover":{"width":480,"height":360,"url":"https:\/\/i.ytimg.com\/vi\/
+2026-10-31 11:10:00.298 App[7335:26871] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/api.tryliner.fun\/v1\/explore\/popular?window=12h&limit=10","data":{"window":"12h","items":[{"score":1536,"track":{"id":"Xj-28WoO914","durationMs":234000,"artists":[{"id":"unknown","name":"LONOWN"}],"cover":{"url":"https:\/\/i.ytimg.com\/
+⚡️  [log] - [selftest] pressing "Play trending" after 3s
+⚡️  [log] - %c lyrics %c fetching for "addiction" background:#06b6d4;color:#000000;font-weight:700;font-size:10px;padding:2px 6px;border-radius:4px; color:inherit;font-weight:normal;
+⚡️  To Native ->  CapacitorHttp request 115623687
+⚡️  To Native ->  CapacitorHttp request 115623688
+⚡️  To Native ->  CapacitorHttp request 115623689
+2026-10-31 11:10:01.538 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":"The data couldn’t be read because it isn’t in the correct format.","status":200,"headers":{"set-cookie":"__Secure-YNID=CtwBCAUSjgEBDB6PDAlDQldHurpaDouZ9XrG-cMj47r9UdCgnFVZ3FIgFvqXIzN8wvUbew-gCeABjpHhKxwwfpJrvFhbADgUIlNRe8gaUXpHPCni_ylpOfChC7828Tje
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+⚡️  To Native ->  CapacitorHttp request 115623690
+2026-10-31 11:10:01.752 App[7335:26758] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"server":"scaffolding on HTTPServer2","content-encoding":"gzip","x-frame-options":"SAMEORIGIN","x-xss-protection":"0","content-length":"3889","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-type":"application\/json; char
+⚡️  To Native ->  CapacitorHttp request 115623691
+2026-10-31 11:10:01.869 App[7335:26709] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":"dmFyIHNjcmlwdFVybCA9ICdodHRwczpcL1wvd3d3LnlvdXR1YmUuY29tXC9zXC9wbGF5ZXJcLzExYTQ1ZmZiXC93d3ctd2lkZ2V0YXBpLnZmbHNldFwvd3d3LXdpZGdldGFwaS5qcyc7dHJ5e3ZhciB0dFBvbGljeT13aW5kb3cudHJ1c3RlZFR5cGVzLmNyZWF0ZVBvbGljeSgieW91dHViZS13aWRnZXQtYXBpIix7Y3JlYXRlU2N
+⚡️  To Native ->  CapacitorHttp request 115623692
+2026-10-31 11:10:01.945 App[7335:26709] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"server":"cloudflare","alt-svc":"h3=\":443\"; ma=86400","vary":"Accept-Encoding, origin, access-control-request-method, access-control-request-headers","content-encoding":"gzip","access-control-allow-origin":"*","nel":"{\"report_to\":\"cf-nel\"
+2026-10-31 11:10:02.204 App[7335:26709] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"report-to":"{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https:\/\/a.nel.cloudflare.com\/report\/v4?s=YBIJkSV5N1rBYIdHwJqv7yXR6ZmPvtqevNyfUxwFarMzpxB2dY5VoZ2Ag%2BE1pqkChJWfUg6cl78xUWKpaa6ichfEO%2F0XhcUQ%2BB1tasme12%2FLXYr
+2026-10-31 11:10:02.210 App[7335:26709] [NSURLSession sharedSession] may not be invalidated
+⚡️  [log] - %c lyrics %c candidate LRCLIB q=80 sync=line_level background:#22c55e;color:#000000;font-weight:700;font-size:10px;padding:2px 6px;border-radius:4px; color:inherit;font-weight:normal;
+⚡️  [log] - %c lyrics %c done, best=LRCLIB q=80 background:#06b6d4;color:#000000;font-weight:700;font-size:10px;padding:2px 6px;border-radius:4px; color:inherit;font-weight:normal;
+⚡️  TO JS {"headers":{"content-encoding":"br","cross-origin-opener-policy-report-only":"same-origin; report-to=\"youtube\"","cross-origin-resource-policy":"cross-origin","expires":"Sun, 31 Oct 2027 11:10:02 GMT","last-modified":"Wed, 28 Oct 2026 04:36:50 GMT","alt-s
+⚡️  To Native ->  CapacitorHttp request 115623693
+⚡️  [log] - [selftest] t=7s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+2026-10-31 11:10:05.206 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/sw.js_data","headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","report-to":"{\"group\":\"youtube_main\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\/\/csp.withgoogle.com\/csp\/report-to\/yo
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+⚡️  To Native ->  CapacitorHttp request 115623694
+⚡️  To Native ->  CapacitorHttp request 115623695
+2026-10-31 11:10:05.302 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"content-length":"657","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","date":"Sat, 31 Oct 2026 11:10:06 GMT","x-xss-protection":"0","server":"scaffolding on HTTPServer2","content-encoding":"br","vary":"Origin, X-Origin, Refer
+⚡️  To Native ->  CapacitorHttp request 115623696
+2026-10-31 11:10:05.320 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-frame-options":"SAMEORIGIN","content-type":"application\/json; charset=UTF-8","date":"Sat, 31 Oct 2026 11:10:06 GMT","content-encoding":"br","content-length":"660","x-content-typ
+2026-10-31 11:10:05.372 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"access-control-allow-credentials":"true","access-control-allow-origin":"https:\/\/www.youtube.com","content-disposition":"attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin","origin-trial":"AmhMBR6zCLzDDxpW+HfpP67BqwIknWnyMOX
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+⚡️  To Native ->  CapacitorHttp request 115623697
+⚡️  To Native ->  CapacitorHttp request 115623698
+2026-10-31 11:10:05.453 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"server":"scaffolding on HTTPServer2","x-xss-protection":"0","vary":"Origin, X-Origin, Referer","x-frame-options":"SAMEORIGIN","content-encoding":"br","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-length":"701","conten
+⚡️  To Native ->  CapacitorHttp request 115623699
+2026-10-31 11:10:05.473 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":{"trackingParams":"CAAQu2kiEwjO9pKkj-SXAxXMksIBHdASMVPKAQRw-fME","adBreakHeartbeatParams":"Q0FBJTNE","onResponseReceivedActions":[{"signalAction":{"signal":"INIT_ATT_SERVICE"},"clickTrackingParams":"CAAQu2kiEwjO9pKkj-SXAxXMksIBHdASMVPKAQRw-fME"}],"
+2026-10-31 11:10:05.509 App[7335:26871] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/sw.js_data","status":200,"data":"The data couldn’t be read because it isn’t in the correct format.","headers":{"content-type":"application\/json; charset=utf-8","accept-ch":"Sec-CH-Viewport-Width, Sec-CH-DPR, Device-Memor
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+⚡️  To Native ->  CapacitorHttp request 115623700
+⚡️  To Native ->  CapacitorHttp request 115623701
+2026-10-31 11:10:05.591 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/youtubei\/v1\/player?prettyPrint=false","status":200,"headers":{"date":"Sat, 31 Oct 2026 11:10:06 GMT","server":"scaffolding on HTTPServer2","x-content-type-options":"nosniff","x-xss-protection":"0","content-length":"600"
+⚡️  To Native ->  CapacitorHttp request 115623702
+2026-10-31 11:10:05.602 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/youtubei\/v1\/player?prettyPrint=false","status":200,"headers":{"date":"Sat, 31 Oct 2026 11:10:06 GMT","server":"scaffolding on HTTPServer2","x-content-type-options":"nosniff","x-xss-protection":"0","content-length":"600"
+2026-10-31 11:10:05.651 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/sw.js_data","headers":{"content-encoding":"br","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","strict-transport-security":"max-age=31536000","connection-allowlist-report-only":"(response-origin \"https:
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+⚡️  To Native ->  CapacitorHttp request 115623703
+⚡️  To Native ->  CapacitorHttp request 115623704
+2026-10-31 11:10:05.731 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":{"adBreakHeartbeatParams":"Q0FBJTNE","responseContext":{"maxAgeSeconds":0,"visitorData":"CgtSQWljRFI3aUZiYyiOmZfXBjIKCgJVUxIEGgAgYWKuAgqrAkN0MEJDQVVTandFQkRCNlBESGZhZHBLSV9qRlp2WllENF9OUmpHWC1USW50cENBRE80VEpCMlk2RDdzWDAyQXZhN2ozbE5vR3dNWUF1UWZSVWN
+⚡️  To Native ->  CapacitorHttp request 115623705
+2026-10-31 11:10:05.764 App[7335:26871] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/youtubei\/v1\/player?prettyPrint=false","headers":{"x-xss-protection":"0","x-frame-options":"SAMEORIGIN","content-type":"application\/json; charset=UTF-8","date":"Sat, 31 Oct 2026 11:10:06 GMT","alt-svc":"h3=\":443\"; ma=
+2026-10-31 11:10:05.778 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/sw.js_data","data":"The data couldn’t be read because it isn’t in the correct format.","headers":{"x-frame-options":"SAMEORIGIN","content-encoding":"br","x-content-type-options":"nosniff","strict-transport-security":"max-
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+⚡️  To Native ->  CapacitorHttp request 115623706
+⚡️  To Native ->  CapacitorHttp request 115623707
+2026-10-31 11:10:05.847 App[7335:26871] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/youtubei\/v1\/player?prettyPrint=false","status":200,"data":{"adBreakHeartbeatParams":"Q0FBJTNE","trackingParams":"CAAQu2kiEwi32aqkj-SXAxUvn8IBHfK-BEvKAQRM7OaY","playabilityStatus":{"reason":"Sign in to confirm you’re not
+⚡️  To Native ->  CapacitorHttp request 115623708
+2026-10-31 11:10:05.879 App[7335:26871] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"headers":{"content-length":"728","date":"Sat, 31 Oct 2026 11:10:06 GMT","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-type":"application\/json; charset=UTF-8","server":"scaffolding on HTTPServer2","vary":"Origin, X-
+2026-10-31 11:10:05.899 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":"The data couldn’t be read because it isn’t in the correct format.","status":200,"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","report-to":"{\"group\":\"youtube_main\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:
+⚡️  To Native ->  CapacitorHttp request 115623709
+⚡️  To Native ->  CapacitorHttp request 115623710
+⚡️  [warn] - [VisitorSession] Failed to fetch fresh visitorData: {}
+2026-10-31 11:10:05.971 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/youtubei\/v1\/player?prettyPrint=false","headers":{"vary":"Origin, X-Origin, Referer","x-frame-options":"SAMEORIGIN","content-length":"728","date":"Sat, 31 Oct 2026 11:10:06 GMT","content-encoding":"br","alt-svc":"h3=\":4
+2026-10-31 11:10:05.977 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"server":"scaffolding on HTTPServer2","date":"Sat, 31 Oct 2026 11:10:06 GMT","x-frame-options":"SAMEORIGIN","vary":"Origin, X-Origin, Referer","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosniff","x-
+⚡️  [log] - %c playback %c youtube sign-in required, pausing background:#eab308;color:#000000;font-weight:700;font-size:10px;padding:2px 6px;border-radius:4px; color:inherit;font-weight:normal;
+⚡️  To Native ->  CapacitorHttp request 115623711
+2026-10-31 11:10:06.099 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":"PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHNjcmlwdCBub25jZT0ibmJMaEVGMlBEa0xjV0lSSEJKMjBVQSI+aWYgKCd1bmRlZmluZWQnID09IHR5cGVvZiBTeW1ib2wgfHwgJ3VuZGVmaW5lZCcgPT0gdHlwZW9mIFN5bWJvbC5pdGVyYXRvcikge2RlbGV0ZSBBcnJheS5wcm90b3R5cGUuZW50cmllczt9PC9zY3JpcHQ+PHN
+⚡️  To Native ->  CapacitorHttp request 115623712
+2026-10-31 11:10:06.418 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"headers":{"last-modified":"Wed, 28 Oct 2026 02:16:55 GMT","x-xss-protection":"0","vary":"Accept-Encoding, Origin","access-control-allow-origin":"https:\/\/www.youtube.com","access-control-allow-credentials":"true","date":"Sat, 31 Oct 2026 11
+⚡️  To Native ->  CapacitorHttp request 115623713
+2026-10-31 11:10:06.991 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"date":"Sat, 31 Oct 2026 11:10:07 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-encoding":"gzip","content-length":"225","server":"ESF","x-xss-protection":"0","content-ty
+⚡️  [log] - [selftest] t=10s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=13s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623714
+2026-10-31 11:10:12.140 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"content-type":"application\/json; charset=utf-8","x-frame-options":"SAMEORIGIN","alt-svc":"h3
+⚡️  [log] - [selftest] t=16s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623715
+⚡️  [log] - [selftest] t=19s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+2026-10-31 11:10:17.207 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"content-type":"application\/json; charset=utf-8","content-length":"91","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-encoding":"gzip","vary":"Origin, X-Origin, Referer","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-fra
+⚡️  [log] - [selftest] t=22s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623716
+2026-10-31 11:10:22.264 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","content-type":"application\/json; charset=utf-8","content-encoding":"gzip","vary":"Origin, X-Origin, Referer","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-fra
+⚡️  [log] - [selftest] t=25s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=28s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623717
+2026-10-31 11:10:27.322 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"content-type":"application\/json; charset=utf-8","x-frame-options":"SAMEORIGIN","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-encoding":"gzip","cache-control":"no-cache, no-store, max-age=0, must-revalidate","vary":"O
+⚡️  [log] - [selftest] t=31s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=34s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623718
+2026-10-31 11:10:32.389 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"status":200,"headers":{"vary":"Origin, X-Origin, Referer","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=25920
+⚡️  [log] - [selftest] t=37s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623719
+2026-10-31 11:10:37.431 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosni
+⚡️  [log] - [selftest] t=40s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=43s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623720
+2026-10-31 11:10:42.471 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","vary":"Origin, X-Origin, Referer","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","x-xss-protection":"0","pragma":"no-cache","x-frame-options"
+⚡️  [log] - [selftest] t=46s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=49s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623721
+2026-10-31 11:10:47.512 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosni
+⚡️  [log] - [selftest] t=52s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623722
+2026-10-31 11:10:52.563 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-frame-options":"SAMEORIGIN",
+⚡️  [log] - [selftest] t=55s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=58s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623723
+2026-10-31 11:10:57.616 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","vary":"Origin, X-Origin, Referer","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","x-xss-protection":"0","pragma":"no-cache","x-frame-options"
+⚡️  [log] - [selftest] t=61s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=64s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623724
+2026-10-31 11:11:02.662 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","vary":"Origin, X-Origin, Referer","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","x-xss-protection":"0","pragma":"no-cache","x-frame-options"
+⚡️  [log] - [selftest] t=67s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623725
+2026-10-31 11:11:07.721 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"vary":"Origin, X-Origin, Referer","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=25920
+⚡️  [log] - [selftest] t=70s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=73s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623726
+2026-10-31 11:11:12.766 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":{"error_description":"Precondition Required","error":"authorization_pending"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-frame-options":"SAMEORIGIN","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=
+⚡️  [log] - [selftest] t=76s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=79s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623727
+2026-10-31 11:11:17.807 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"status":200,"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosni
+⚡️  [log] - [selftest] t=82s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623728
+2026-10-31 11:11:22.848 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosni
+⚡️  [log] - [selftest] t=85s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=88s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623729
+2026-10-31 11:11:27.890 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","vary":"Origin, X-Origin, Referer","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","x-xss-protection":"0","pragma":"no-cache","x-frame-options"
+⚡️  [log] - [selftest] t=91s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=94s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623730
+2026-10-31 11:11:32.987 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosni
+⚡️  [log] - [selftest] t=97s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623731
+2026-10-31 11:11:38.032 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","content-type":"application\/j
+⚡️  [log] - [selftest] t=100s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=103s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623732
+2026-10-31 11:11:43.076 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosniff","content-encoding":"gzip","content-length":"91","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 31 Oct 2026 11:11:43 GMT","x-xss-protection
+⚡️  [log] - [selftest] t=106s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=109s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623733
+2026-10-31 11:11:48.115 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","vary":"O
+⚡️  [log] - [selftest] t=112s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623734
+2026-10-31 11:11:53.159 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"content-type":"application\/json; charset=utf-8","content-length":"91","expires":"Mon, 01 Jan
+⚡️  [log] - [selftest] t=115s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=118s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623735
+2026-10-31 11:11:58.205 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosni
+⚡️  [log] - [selftest] t=121s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=124s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623736
+2026-10-31 11:12:03.247 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosniff","content-encoding":"gzip","content-length":"91","date":"Sat, 31 Oct 2026 11:12:04 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","x-xss-protection
+⚡️  [log] - [selftest] t=127s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=130s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623737
+2026-10-31 11:12:08.292 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"content-type":"application\/json; charset=utf-8","content-length":"91","expires":"Mon, 01 Jan
+⚡️  [log] - [selftest] t=133s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623738
+2026-10-31 11:12:13.336 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosni
+⚡️  [log] - [selftest] t=136s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=139s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623739
+2026-10-31 11:12:18.389 App[7335:26762] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","content-type":"application\/json; charset=utf-8","content-encoding":"gzip","vary":"Origin, X-O
+⚡️  [log] - [selftest] t=142s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  [log] - [selftest] t=145s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623740
+2026-10-31 11:12:23.431 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","vary":"Origin, X-Origin, Referer","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","x-xss-protection":"0","pragma":"no-cache","x-frame-options"
+⚡️  [log] - [selftest] t=148s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623741
+2026-10-31 11:12:28.473 App[7335:26780] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosniff","content-encoding":"gzip","content-length":"91",
+⚡️  [log] - [selftest] t=151s audio=src= time=0.0 paused=true ready=0 err=-: title=Spark
+⚡️  To Native ->  CapacitorHttp request 115623742
+2026-10-31 11:12:33.514 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-length":"91","pragma":"no-cache","vary":"Origin, X-Ori
+⚡️  To Native ->  CapacitorHttp request 115623743
+2026-10-31 11:12:38.586 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-frame-options":"SAMEORIGIN","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","x-xss-protection":"0","server":"scaffolding on HTTPServer2","exp
+⚡️  To Native ->  CapacitorHttp request 115623744
+2026-10-31 11:12:43.633 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-type":"application\/json; charset=utf-8","cache-control":"no-cache, no-store, max-age=0, must-revalidate","server":"scaffolding on HTTPServer2","vary":"Origin, X-Origin, Re
+⚡️  To Native ->  CapacitorHttp request 115623745
+2026-10-31 11:12:48.677 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","content-type":"application\/json; charset=utf-8","cache-control":"no-cache, no-store, max-age=0, must-revalidate","server":"scaffolding on HTTPServer2","vary":"Origin, X-Origin, Re
+⚡️  To Native ->  CapacitorHttp request 115623746
+2026-10-31 11:12:53.719 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"x-frame-options":"SAMEORIGIN","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+⚡️  To Native ->  CapacitorHttp request 115623747
+2026-10-31 11:12:58.762 App[7335:26708] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"status":200,"data":{"error":"authorization_pending","error_description":"Precondition Required"},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","x-content-type-options":"nosniff","content-encoding":"gzip","content-length":"91",
+⚡️  To Native ->  CapacitorHttp request 115623748
+2026-10-31 11:13:03.828 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-frame-options":"SAMEORIGIN","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","x-xss-protection":"0","server":"scaffolding on HTTPServer2","exp
+⚡️  To Native ->  CapacitorHttp request 115623749
+2026-10-31 11:13:08.874 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"content-type":"application\/json; charset=utf-8","content-length":"91","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-encoding":"gzip","vary":"Origin, X-Origin, Referer","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","serve
+⚡️  To Native ->  CapacitorHttp request 115623750
+2026-10-31 11:13:13.939 App[7335:26704] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"content-type":"application\/json; charset=utf-8","x-xss-protection":"0","content-encoding":"g
+⚡️  To Native ->  CapacitorHttp request 115623751
+2026-10-31 11:13:18.979 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"x-content-type-options":"nosniff","content-type":"application\/json; charset=utf-8","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","content-length":"91","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","vary":"Origin, X-Ori
+⚡️  To Native ->  CapacitorHttp request 115623752
+2026-10-31 11:13:24.015 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error":"authorization_pending","error_description":"Precondition Required"},"status":200,"headers":{"x-frame-options":"SAMEORIGIN","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+⚡️  To Native ->  CapacitorHttp request 115623753
+2026-10-31 11:13:29.058 App[7335:26704] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"headers":{"content-type":"application\/json; charset=utf-8","x-xss-protection":"0","content-encoding":"gzip","pragma":"no-cache","server":"scaffolding on HTTPServer2","x-content-type-options":"nosniff","vary":"Origin, X-Origin, Referer","content-length":
+⚡️  To Native ->  CapacitorHttp request 115623754
+2026-10-31 11:13:34.095 App[7335:26703] [NSURLSession sharedSession] may not be invalidated
+⚡️  TO JS {"url":"https:\/\/www.youtube.com\/o\/oauth2\/token","data":{"error_description":"Precondition Required","error":"authorization_pending"},"status":200,"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","vary":"Origin, X-Origin, Refer
+com.spark.player: 7335
