@@ -80,4 +80,50 @@ export async function installMobilePlatform(): Promise<void> {
       else void App.minimizeApp();
     });
   });
+
+  if (import.meta.env.VITE_SPARK_SELFTEST === "1") runSelfTest();
 }
+
+// CI-only smoke test: enters guest mode, presses the hero play button and
+// reports what the player does. Only compiled in when VITE_SPARK_SELFTEST=1.
+function runSelfTest(): void {
+  try {
+    localStorage.setItem("spark_guest_mode", "1");
+  } catch {}
+  const report = (msg: string) => console.log(`[selftest] ${msg}`);
+  window.addEventListener("error", (e) => report(`window error: ${e.message}`));
+  window.addEventListener("unhandledrejection", (e) =>
+    report(`unhandled rejection: ${String((e as PromiseRejectionEvent).reason)}`),
+  );
+  let clicked = false;
+  const started = Date.now();
+  const timer = window.setInterval(() => {
+    const elapsed = Math.round((Date.now() - started) / 1000);
+    if (!clicked) {
+      const guest = Array.from(document.querySelectorAll("button")).find((b) =>
+        /continue without an account/i.test(b.textContent ?? ""),
+      );
+      if (guest) {
+        report("pressing continue without an account");
+        guest.click();
+        return;
+      }
+      const play = Array.from(document.querySelectorAll("button")).find((b) =>
+        /play trending|play your mix/i.test(b.textContent ?? ""),
+      );
+      if (play) {
+        report(`pressing "${play.textContent?.trim()}" after ${elapsed}s`);
+        play.click();
+        clicked = true;
+      }
+      return;
+    }
+    const audio = Array.from(document.querySelectorAll("audio"))[0] as HTMLAudioElement | undefined;
+    const anyAudio = audio ?? ((window as unknown as { __sparkAudio?: HTMLAudioElement }).__sparkAudio);
+    report(
+      `t=${elapsed}s audio=${anyAudio ? `src=${anyAudio.currentSrc.slice(0, 60)} time=${anyAudio.currentTime.toFixed(1)} paused=${anyAudio.paused} ready=${anyAudio.readyState} err=${anyAudio.error?.code ?? "-"}:${anyAudio.error?.message ?? ""}` : "none"} title=${document.title}`,
+    );
+    if (elapsed > 150) window.clearInterval(timer);
+  }, 3000);
+}
+
