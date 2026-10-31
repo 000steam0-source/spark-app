@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   ios:
     runs-on: macos-15
@@ -52,3 +55,14 @@ jobs:
         with:
           name: Spark-ipa
           path: out/Spark.ipa
+
+      - name: Publish IPA to the ipa branch
+        run: |
+          mkdir publish && cp out/Spark.ipa publish/
+          cd publish
+          git init -q -b ipa
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add Spark.ipa
+          git commit -qm "Spark.ipa from ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}" ipa
