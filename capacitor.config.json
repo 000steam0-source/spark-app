@@ -1,0 +1,27 @@
+{
+  "appId": "com.spark.player",
+  "appName": "Spark",
+  "webDir": "dist",
+  "loggingBehavior": "debug",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#050508",
+    "webContentsDebuggingEnabled": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    },
+    "SystemBars": {
+      "style": "DARK"
+    }
+  },
+  "ios": {
+    "backgroundColor": "#050508",
+    "contentInset": "never",
+    "scrollEnabled": false,
+    "allowsLinkPreview": false
+  }
+}

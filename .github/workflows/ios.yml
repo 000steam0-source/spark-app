@@ -1,0 +1,54 @@
+name: Build iOS app (.ipa)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 45
+    env:
+      ELECTRON_SKIP_BINARY_DOWNLOAD: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: |
+          npm install -g pnpm@12.15.0
+          pnpm install --no-frozen-lockfile --ignore-scripts
+
+      - name: Build web app
+        run: pnpm exec vite build
+
+      - name: Create iOS project
+        run: |
+          pnpm exec cap add ios
+          pnpm exec cap sync ios
+          python3 scripts/ios-prepare.py
+
+      - name: Compile (unsigned)
+        run: |
+          cd ios/App
+          if [ -f Podfile ]; then pod install; TARGET="-workspace App.xcworkspace"; else TARGET="-project App.xcodeproj"; fi
+          xcodebuild $TARGET -scheme App -configuration Release \
+            -destination 'generic/platform=iOS' -derivedDataPath ../build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build | tail -n 60
+          test -d ../build/Build/Products/Release-iphoneos/App.app
+
+      - name: Package IPA
+        run: |
+          mkdir -p out/Payload
+          cp -R ios/build/Build/Products/Release-iphoneos/App.app out/Payload/
+          cd out && zip -qry Spark.ipa Payload
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Spark-ipa
+          path: out/Spark.ipa
