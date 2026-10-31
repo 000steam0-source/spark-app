@@ -115,7 +115,9 @@ async function resolveYoutubeTrack(
   signal?: AbortSignal,
 ): Promise<PlaybackStream> {
   const spark = await resolveSparkStream(videoId, signal);
-  if (spark) {
+  if (spark && !canPlayOnDevice(spark.mimeType)) {
+    log("yellow", "playback", `skipping spark audio (${spark.mimeType}) - not playable here`);
+  } else if (spark) {
     log("cyan", "playback", `playing spark audio (r2) for "${track.title}"`);
     return fromSparkStream(spark, track);
   }
@@ -126,6 +128,16 @@ function isAndroidApp(): boolean {
   return (
     typeof window !== "undefined" && (window.sparkElectron?.platform === "android" || window.sparkElectron?.platform === "ios")
   );
+}
+
+function isIosApp(): boolean {
+  return typeof window !== "undefined" && window.sparkElectron?.platform === "ios";
+}
+
+// iOS WebKit can't decode every format (WebM/Opus in particular)
+function canPlayOnDevice(mimeType: string | undefined): boolean {
+  if (!isIosApp() || !mimeType || typeof document === "undefined") return true;
+  return document.createElement("audio").canPlayType(mimeType) !== "";
 }
 
 function isRemoteUrl(url: string): boolean {
@@ -145,6 +157,8 @@ async function bufferForAndroid(
     signal,
   });
   if (!bytes) throw new Error("audio download returned no data");
+  if (!canPlayOnDevice(stream.mimeType))
+    throw new Error(`this device can't play ${stream.mimeType}`);
   stream.release?.();
   log("cyan", "playback", `buffered ${Math.round(bytes.byteLength / 1024)} KB for android`);
   return {

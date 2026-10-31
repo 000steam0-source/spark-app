@@ -1067,10 +1067,18 @@ class PlayerEngine {
       "playback",
       `"${track.title}" failed (${info.message}) — skipping to next`,
     );
+    const isMobileApp =
+      typeof window !== "undefined" &&
+      (window.sparkElectron?.platform === "android" ||
+        window.sparkElectron?.platform === "ios");
+    const trackLine = track.artists
+      ? `${track.title} — ${track.artists}`
+      : track.title;
     showToast(translate("player.track_unavailable_title"), "error", {
-      description: track.artists
-        ? `${track.title} — ${track.artists}`
-        : track.title,
+      // on phones there's no dev console, so show why it failed
+      description: isMobileApp
+        ? `${trackLine}\n${info.message.slice(0, 220)}`
+        : trackLine,
     });
     void this.skipNext(false);
   }
